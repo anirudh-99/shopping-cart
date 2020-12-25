@@ -1,0 +1,39 @@
+.Navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background: #121212;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+}
+
+.Navbar__title {
+  font-size: 20px;
+  color: white;
+}
+
+.Navbar > a {
+  text-decoration: none;
+}
+
+.cartIcon {
+  width: 20px;
+  height: 20px;
+}
+
+.Navbar__cart {
+  display: flex;
+  flex-direction: row;
+  background: white;
+  border-radius: 12px;
+  padding: 4px;
+  color: black;
+  margin-right: 20px;
+}
+
+.Navbar__cart > * {
+  margin: 0 5px;
+}
